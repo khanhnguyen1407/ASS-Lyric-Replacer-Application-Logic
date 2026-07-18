@@ -251,3 +251,8 @@ body,
   -webkit-text-fill-color: var(--text-primary);
   background: none;
 }
+
+.theme-switcher-option,
+.theme-switcher-btn {
+    cursor: url("Sanrio-Kuromi-Cunning-cursor-32px.cur"), pointer;
+}
