@@ -787,3 +787,13 @@ h1, h2, h3{
     transition-duration: 0.001ms !important;
   }
 }
+
+
+.brand-logo {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
