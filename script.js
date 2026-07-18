@@ -212,7 +212,9 @@ function handleFileSelected(file, kind) {
   if (!ALLOWED_NAMES.includes(base)) {
     showError(
       'Tên file không được hỗ trợ',
-      `Tên file "${file.name}" không nằm trong danh sách được phép.\n\nCác tên hợp lệ cho file .${expectedExt}:\n` +
+      `Tên file "${file.name}" không nằm trong danh sách được phép.\n\n` +
+      `Vui lòng đổi tên file thành một trong các tên hợp lệ bên dưới.\n\n` +
+      `Các tên hợp lệ cho file .${expectedExt}:\n` +
       ALLOWED_NAMES.map((n) => `• ${n}.${expectedExt}`).join('\n')
     );
     return;
