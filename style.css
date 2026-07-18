@@ -797,3 +797,11 @@ h1, h2, h3{
     user-select: none;
     pointer-events: none;
 }
+
+.upload-box,
+.btn,
+.meta-remove,
+a,
+button {
+    cursor: url("Sanrio-Kuromi-Cunning-cursor-32px.cur"), pointer;
+}
